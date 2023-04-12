@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="MotorRacing">
+		<class>model.CabecerasDiagnostico</class>
+		<class>model.CabecerasFactura</class>
+		<class>model.CabecerasOrdenesTaller</class>
+		<class>model.Cita</class>
+		<class>model.Cliente</class>
+		<class>model.ClientesFacturasRecibo</class>
+		<class>model.ClientesFacturasReciboPK</class>
+		<class>model.Empleado</class>
+		<class>model.EncuestaSatisfaccion</class>
+		<class>model.InventariosPieza</class>
+		<class>model.Iva</class>
+		<class>model.LineasDiagnostico</class>
+		<class>model.LineasFactura</class>
+		<class>model.LineasFacturaPK</class>
+		<class>model.LineasFacturasManoObra</class>
+		<class>model.LineasFacturasManoObraPK</class>
+		<class>model.LineasFacturasPieza</class>
+		<class>model.LineasFacturasPiezaPK</class>
+		<class>model.Login</class>
+		<class>model.ManoObraOrdenesTaller</class>
+		<class>model.MetodosPago</class>
+		<class>model.PiezasOrdenesTaller</class>
+		<class>model.PiezasOrdenesTallerPK</class>
+		<class>model.PreferenciasCliente</class>
+		<class>model.Recepcione</class>
+		<class>model.Recibo</class>
+		<class>model.Sesiones</class>
+		<class>model.TarifasManoObra</class>
+		<class>model.TiposVehiculo</class>
+		<class>model.TotalesDiagnostico</class>
+		<class>model.TotalesFactura</class>
+		<class>model.TotalesOrdenesTaller</class>
+		<class>model.Vehiculo</class>
+	</persistence-unit>
+</persistence>
